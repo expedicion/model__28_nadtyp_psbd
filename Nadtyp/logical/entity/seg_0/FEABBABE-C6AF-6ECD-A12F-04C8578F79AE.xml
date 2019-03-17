@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEABBABE-C6AF-6ECD-A12F-04C8578F79AE" name="STUDENT">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:24:10 UTC</createdTime>
+<ownerDesignName>Nadtyp</ownerDesignName>
+<engineerTo>
+<item key="594C0C9B-5704-820A-04B7-8CFA8E9EF8FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>CE101811-91A4-C696-7A13-3856AF5187CD</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_ALBUMU" id="C56CBFE8-C48A-3497-224F-8181B16C0028">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:25:14 UTC</createdTime>
+<ownerDesignName>Nadtyp</ownerDesignName>
+<engineerTo>
+<item key="594C0C9B-5704-820A-04B7-8CFA8E9EF8FA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="400B5F5B-6263-8A4F-3891-1A9B1EDF2341" name="STUDENT PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:25:22 UTC</createdTime>
+<ownerDesignName>Nadtyp</ownerDesignName>
+<engineerTo>
+<item key="594C0C9B-5704-820A-04B7-8CFA8E9EF8FA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C56CBFE8-C48A-3497-224F-8181B16C0028</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

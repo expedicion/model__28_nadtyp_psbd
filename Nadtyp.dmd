@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Nadtyp" id="5219D6C1-0916-6D95-65E8-4FB81A747FD7" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-13 17:18:22 UTC</createdTime>
+<ownerDesignName>Nadtyp</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5219D6C1-0916-6D95-65E8-4FB81A747FD7</designId>
+</OSDM_Design>
